@@ -5,32 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WTMW</title>
     <link rel="stylesheet" href="estilos.css">
-    <link rel="icon" href="imagenes/horuseye.png" type="image/png">    
-
-    <style>
-        #table{
-            width: 32%;
-            color: white; font-family: Arial, Helvetica, sans-serif;text-align: center;
-            background-image: url(imagenes/fondo2.png); background-position: center; background-repeat: no-repeat; background-size: cover;
-            border: 10px solid #0D0D0D; border-radius: 20px; border-spacing: 10px;
-        }
-        td{text-align: center; vertical-align: middle; width: 25%; height: auto;}
-        .wid{border-radius: 20px; width: 100%; height: 100%;}
-        #carpeta{background-color: rgba(3, 3, 3, 0.788); border-radius: 20px;}
-        .fondo-app{background-color: white; border-radius: 20%; width: 24%;} 
-        .app{width: 90%; height: 90%;}
-
-    </style>
+    <link rel="icon" href="imagenes/horuseye.png" type="image/png" sizes="16x16">    
 </head>
 
 <body>
     <p><a href="index.html"> click aqui</a></p>
 
-    <center>
-    <table id="table">
-
+    
+    <table id="table" style="float: right;">
         <tr>
-            <td rowspan="2"; colspan="2"><img class="wid" src="imagenes/wid1.png" alt="widget1"></td>
+            <td colspan="3"></td>
+            <td>
+                <img class="barra-superior" src="imagenes/wifi.png" alt="wifi">
+                <img class="barra-superior" src="imagenes/bar-wifi.png" alt="barra">
+                <img class="barra-superior" src="imagenes/battery.png" alt="bateria">
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2"; colspan="2"><img class="wid" src="imagenes/wid1.png" alt="widget1">widget</td>
             <td> <img class="app" src="imagenes/instagramlogo.png" alt="instagram"><br>Sobre mí</td>
             <td> <img class="app" src="imagenes/pinterestlogo2.png" alt="pinterest"><br>Referencia</td>
         </tr>
@@ -56,22 +48,33 @@
             <img class="fondo-app" src="imagenes/docs-icon.png" alt="docs">
         </td>
            <td> <img class="app" src="imagenes/youtubelogo2.png" alt="youtube"><br>Youtube</td>
-           <td rowspan="2" colspan="2"> <img class="wid" src="imagenes/wid2.png" alt="widget2"></td>
+           <td rowspan="2" colspan="2"> <img class="wid" src="imagenes/wid2.png" alt="widget2">widget</td>
         </tr>
         <tr>
             <td> <img class="app" src="imagenes/mteams-icon2.png" alt="teams"><br>Teams</td>
             <td> <img class="app" src="imagenes/whatsapp-icon.png" alt="teams"><br>WhatApp</td>
         </tr>
-        <tr><td colspan="4"><br>...</td></tr>
+        <tr>
+            <td colspan="4">
+                <img class="interfaz" src="imagenes/noticias-icon.png" alt="noticia">
+                <img class="interfaz" src="imagenes/casa-en-blanco.png" alt="home">
+                <img class="interfaz" src="imagenes/pestaña-icon.png" alt="pestaña">
+            </td>
+        </tr>
         <tr>
             <td> <img class="app" src="imagenes/teléfono-icon2.png" alt="telefono"></td>
             <td> <img class="app" src="imagenes/message-icon2.png" alt="sms"></td>
             <td> <img class="app" src="imagenes/contactos-icon.png" alt="contacto" style="border-radius: 15px;"></td>
             <td> <img class="app" src="imagenes/camera-icon.png" alt="camara" style="border-radius: 15px;"></td>
         </tr>
-    
+        <tr>
+            <td colspan="4">
+                <img class="barra" src="imagenes/menu-icon.png" alt="menu">
+                <img class="barra" src="imagenes/salir-icon.png" alt="salir">
+                <img class="barra" src="imagenes/back.png" alt="back">
+            </td>    
+        </tr>
     </table>
-    </center>
-    
+
 </body>
 </html>
