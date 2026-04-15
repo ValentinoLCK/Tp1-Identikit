@@ -70,6 +70,7 @@ td{text-align: center; vertical-align: middle; width: 25%; height: 25%; font-siz
     .interfaz{width: 10px; padding-left: 1.5% ;padding-right: 1.5%;}
     .barra{width: 20px; margin-right: 12%; margin-left: 12%;}
 
+#body-lista{background-image: url(imagenes/);}
 #nav {
     margin-top: 0;
     background-color: #240046;
