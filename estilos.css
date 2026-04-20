@@ -17,26 +17,35 @@
     
     #titulo{color: white; 
         font-family: "Orbitron", sans-serif; font-weight: 700; font-size: 20px;
-        position: absolute; width: 100%; bottom: 18%;
+        position: absolute; width: 100%; bottom: 18%; text-align: center;
     }
     #subtitulo{color: white;
         font-family: "BIZ UDMincho", serif; font-size: 30px; font-weight: 600;
-        position: absolute; width: 100%; bottom: 16%;
+        position: absolute; width: 100%; bottom: 16%; text-align: center;
     }
 
-#part1 {background-color: #FF6D00; 
-    display: inline-block; 
-    width: 50%; height: 800px;
-    vertical-align: top; margin-top: 25px; margin-bottom: 12px;
+#part1 {background-color: #FF6D00; border-radius: 12px;
+    display: inline-block;
+    width: 45%; height: 800px;
+    vertical-align: top; margin-top: 25px; margin-bottom: 24px;
 }
-#part2 {background-color: #FF6D00;}
+#part1 li {text-align: left; margin-top: 6px; margin-left: 24px;}
+#part1-text {text-align: left; padding-left: 12px; padding-right: 12px;}
+.separador {width: 100%; margin: 6px 0px 6px 0px}
+#kenny {padding-top: 12px;}
+#part2 {text-align: center;}
+.fav {width: 45px; height: 45px; margin-right: 12px; margin-left: 12px;}
 
 #sobremi {background-image:  url(imagenes/sobremi-fondo.gif);
-    margin: 0;
+    margin: 0 auto;
     background-size: cover; background-position: center; background-repeat: no-repeat;
     color: white; font-family: "Orbitron", sans-serif; font-weight: 600; 
 }
-#sobremi p {padding: 12px 20px 12px 20px;}
+.sobremi-p {background-color: #396FAA; 
+    max-width: 1100px; height: 300px; text-align: left;
+    padding: 12px 20px 12px 20px;
+}
+.sobremi-p a {text-decoration: none; color:#3c096c;}
 
 #body-card{
     margin: 0;
@@ -62,7 +71,7 @@
 
 #table{
     display: inline-block; 
-    margin-top: 20px; margin-left: 50px; margin-bottom: 12px;
+    margin-top: 20px; margin-left: 30px; margin-bottom: 24px;
     width: 32%;
     color: white; font-family: Arial, Helvetica, sans-serif; text-align: center; font-weight: 100;
     background-image: url(imagenes/fondo2.png); background-position: center; background-repeat: no-repeat; background-size: cover;
@@ -100,14 +109,14 @@ td{text-align: center; vertical-align: middle; width: 25%; height: 25%; font-siz
         margin-right: 18px;
     }
 
-    #nav a {
-        background-color: rgb(0, 211, 230);
+    #nav a {text-decoration: none;
+        background-color: #4cc9f0;
         padding: 12px 24px;
         display: inline-block;
     }
 
     #nav a:hover {
-        background-color: darkslateblue;
+        background-color: #7b2cbf;
         color: white;
         padding: 10px 22px;
         border: 2px solid red;
@@ -116,27 +125,35 @@ td{text-align: center; vertical-align: middle; width: 25%; height: 25%; font-siz
     .aside,.main {
         display: inline-block;
         vertical-align: top;
-        height: 100vh;
+        height: 90vh;
     } 
     .contenedor {
-        background-color: rgb(255, 98, 0);  
+        background-color: #10002B;  
         text-align: center;
     }
-    .aside {background-color: firebrick;
-        width: 25%;
+    .aside {background-color: #FF6D00;
+        width: 23%;
     }
     .aside li {list-style-type: none; 
-        margin-top: 12px;
+        margin-top: 18px;
+        border: 1px solid black; background-color: #7b2cbf;
     }
+    .aside a {text-decoration: none; color: white;
+    }
+    .aside li:hover {background-color: #4895ef;}
     .main {background-image: url(imagenes/barra.png); 
         background-size: cover; background-position: center; background-repeat: no-repeat;
-        width: 73%;
+        width: 75%;
         color: white; font-family: "Orbitron", sans-serif; font-weight: 600;
     }
     .main h1 {margin-top: 12px;}
-    .main p {margin-top: 12px; margin-bottom: 30px;}
-    .footer {background-color: rgba(157, 78, 221, 0.8);
-        text-align: center;
+    .main p {margin: 12px 36px 24px 36px; background-color: rgba(0, 0, 0, 0.8);}
+    .main img {border: 2px solid black; border-radius: 12px; box-shadow: 0px 0px 30px 0px #FF6D00;}
+    .main iframe {margin-bottom: 12px;}
+    
+    .footer {background-color: #9d4edd;
+        text-align: center; 
+        padding-top: 6px; padding-bottom: 6px;
     }
 
 #body-trivia {
@@ -146,3 +163,169 @@ td{text-align: center; vertical-align: middle; width: 25%; height: 25%; font-siz
     font-family: "Orbitron", sans-serif; font-weight: 600;
     text-align: center; 
 }
+#section-trivia h1 {margin-top: 12px;
+    font-family: "Jersey 10", sans-serif; color: #ff9e00; font-size: 50px;}
+#section-trivia h2 {
+    font-size: 20px;            
+    margin-top: 12px; margin-bottom: 12px;
+    border: 1px solid black; background-color: rgba(0, 0, 0, 0.8);  
+    padding: 6px;
+}
+#arcade {
+    width: 275px; height: 275px;
+    border: 1px solid #ff9e00; border-radius: 12px;
+    margin: 0 auto;
+}
+#insert {
+    background-color: #5900fe; color: white;
+    text-decoration: none;
+    border: 2px solid #000000; 
+    display: inline-block;
+    padding-left: 30px; padding-right: 10px;
+    margin-top: 12px;
+}    
+#insert:hover {background-color: #ff9e00; border: 2px solid darkslateblue;}
+#coin {width: 50px; height: 50px; vertical-align: middle; padding: 3px;}
+
+#espacio {margin-right: 24px;}
+#body-trivia h3 {background-color: rgba(0, 0, 0, 0.8);}
+
+.opcion-1 {width: 300px; height: 300px; margin-top: 12px;
+    display: inline-block;
+    background-image: url(trivia/imagenes-trivia/manija.png); background-size: cover; 
+    border: 3px solid black; border-radius: 12px;
+    color: rgb(255, 255, 255); padding: 18px;
+}
+.opcion-2 {width: 300px; height: 300px; margin-top: 12px;
+    display: inline-block;
+    background-image: url(trivia/imagenes-trivia/mimir.png); background-size: cover;
+    border: 3px solid black; border-radius: 12px;
+    color: white; padding: 18px;
+}
+.opcion-1:hover, .opcion-2:hover {border: 4px solid #ff9e00;}
+
+.pisadas {width: 300px; height: 300px; margin-top: 12px;
+    display: inline-block;
+    background-image: url(trivia/imagenes-trivia/panico.png); background-size: cover; background-position: center;
+    border: 3px solid black; border-radius: 12px;
+    color: rgb(255, 255, 255); padding: 18px;
+}
+.madrugada {width: 300px; height: 300px; margin-top: 12px;
+    display: inline-block;
+    background-image: url(trivia/imagenes-trivia/matador.png); background-size: cover;
+    border: 3px solid black; border-radius: 12px;
+    color: white; padding: 18px;
+}
+.pisadas:hover, .madrugada:hover {border: 4px solid #ff9e00;}
+
+.pausa {width: 300px; height: 300px; margin-top: 12px;
+    display: inline-block;
+    background-image: url(trivia/imagenes-trivia/serio.png); background-size: cover; 
+    border: 3px solid black; border-radius: 12px;
+    color: rgb(255, 255, 255); padding: 18px;
+}
+.copia {width: 300px; height: 300px; margin-top: 12px;
+    display: inline-block;
+    background-image: url(trivia/imagenes-trivia/paciencia.gif); background-size: cover; background-position: center;
+    border: 3px solid black; border-radius: 12px;
+    color: white; padding: 18px;}
+.pausa:hover, .copia:hover {border: 4px solid #ff9e00;}
+
+.romper {width: 300px; height: 300px; margin-top: 12px;
+    display: inline-block;
+    background-image: url(trivia/imagenes-trivia/mando-lag.gif); background-size: cover; background-position: center;
+    border: 3px solid black; border-radius: 12px;
+    color: white; padding: 18px;
+}
+.tryhard {width: 300px; height: 300px; margin-top: 12px;
+    display: inline-block;
+    background-image: url(trivia/imagenes-trivia/hacker.gif); background-size: cover; background-position: center;
+    border: 3px solid black; border-radius: 12px;
+    color: white; padding: 18px;
+}
+.romper:hover, .tryhard:hover {border: 4px solid #ff9e00;}
+
+.amigos {width: 300px; height: 300px; margin-top: 12px;
+    display: inline-block;
+    background-image: url(imagenes-trivia/rompertodo.gif); background-size: cover;
+    border: 3px solid black; border-radius: 12px;
+    color: white; padding: 18px;
+}
+.solitario {width: 300px; height: 300px; margin-top: 12px;
+    display: inline-block;
+    background-image: url(imagenes-trivia/tryhard.png); background-size: cover;
+    border: 3px solid black; border-radius: 12px;
+    color: white; padding: 18px;
+}
+.amigos:hover, .solitario:hover {border: 4px solid #ff9e00;}
+
+.sobrevive {width: 300px; height: 300px;
+    display: inline-block;
+    background-image: url(trivia/imagenes-trivia/sobrevive.gif); background-size: cover;
+    border: 3px solid black; border-radius: 12px;
+    color: white; padding: 18px; text-align: center;
+}
+.fase {width: 300px; height: 300px;
+    display: inline-block;
+    background-image: url(trivia/imagenes-trivia/rip.png); background-size: cover;
+    border: 3px solid black; border-radius: 12px;
+    color: white; padding: 18px;
+}
+.sobrevive:hover, .fase:hover {border: 4px solid #ff9e00;}
+
+#deporte {width: 250px; height: 100%; 
+    border: 1px solid #ff9e00; border-radius: 12px;
+    margin-left: 40px; margin-right: 20px;
+    float: left; 
+}
+.p-deporte {font-size: 17px; padding: 6px; height: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+}
+
+#shooter {width: 350px; height: 100%; 
+    border: 1px solid #ff9e00; border-radius: 12px;
+    margin-left: 40px; margin-right: 20px;
+    float: left; 
+}
+.p-shooter {font-size: 17px; padding: 6px; height: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+}
+
+#aventura {width: 350px; height: 100%; 
+    border: 1px solid #ff9e00; border-radius: 12px;
+    margin-left: 40px; margin-right: 20px;
+    float: left; 
+}
+.p-aventura {font-size: 17px; padding: 6px; height: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+}
+
+#rpg {width: 250px; height: 100%; 
+    border: 1px solid #ff9e00; border-radius: 12px;
+    margin-left: 40px; margin-right: 20px;
+    float: left; 
+}
+.p-rpg {font-size: 17px; padding: 6px; height: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+}
+
+#recomendaciones {margin-top: 30px;}
+    .listas {background-color: rgba(0, 0, 0, 0.8); 
+        color: white; 
+        font-weight: 600;
+        padding-top: 6px; padding-bottom: 30px; padding-right: 30px;
+        border: 6px double #ff9e00; border-radius: 12px;
+        list-style-position: inside;
+    }
+    .listas li {font-family: "Audiowide", sans-serif;}
+    .listas dd  {font-weight: 300;}
+    .listas div {display: flex; justify-content: center; gap: 24px; padding-top: 24px;}
+    .listas img {width: 150px; height: 150px;}
+    #body-listas, h1, p, .listas {margin-right: 24px; margin-left: 24px;
+}
+
+#playlist {font-family: "Orbitron", sans-serif; font-weight: 600; color: white;}
