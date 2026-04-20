@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=BIZ+UDMincho:wght@400;700&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=BIZ+UDMincho:wght@400;700&family=Jersey+10&family=Orbitron:wght@400..900&display=swap');
+
 #index{margin: 0;
     background-color: #10002B; 
-    color: white; font-family: "Audiowide", sans-serif}
+    color: white; font-family: "Orbitron", sans-serif; font-weight: 600;}
     
     #header{
         background-image: url(imagenes/vapor-header.gif);
@@ -10,39 +11,49 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         position: relative;          
-        width: 100%; height: 400px; min-height: 400px; 
+        width: 100%; min-height: 375px; 
+        box-shadow: rgb(255, 77, 243) 0 0 20px 0px;
     }
     
     #titulo{color: white; 
         font-family: "Orbitron", sans-serif; font-weight: 700; font-size: 20px;
-        position: absolute; width: 100%; bottom: 16%;
+        position: absolute; width: 100%; bottom: 18%;
     }
     #subtitulo{color: white;
-        font-family: "BIZ UDMincho", serif; font-size: 30px; font-weight: 550;
-        position: absolute; width: 100%; bottom: 14%;
+        font-family: "BIZ UDMincho", serif; font-size: 30px; font-weight: 600;
+        position: absolute; width: 100%; bottom: 16%;
     }
 
 #part1 {background-color: #FF6D00; 
     display: inline-block; 
     width: 50%; height: 800px;
-    vertical-align: top; margin-top: 20px; margin-bottom: 20px;
+    vertical-align: top; margin-top: 25px; margin-bottom: 12px;
 }
 #part2 {background-color: #FF6D00;}
 
-#sobremi {background-image:  url(imagenes/descarga.gif);
+#sobremi {background-image:  url(imagenes/sobremi-fondo.gif);
+    margin: 0;
     background-size: cover; background-position: center; background-repeat: no-repeat;
-    color: white; font-family: "Audiowide", sans-serif; 
+    color: white; font-family: "Orbitron", sans-serif; font-weight: 600; 
 }
+#sobremi p {padding: 12px 20px 12px 20px;}
 
 #body-card{
-    background-image: url(imagenes/background-card.gif); font-family: "Audiowide", sans-serif;
+    margin: 0;
+    background-image: url(imagenes/card-fondo.gif); font-family: "Orbitron", sans-serif; font-weight: 600;
     background-position: center; background-repeat: no-repeat; background-size: 100%; background-position-y: 25%;
+    color: white;
 }
-#section-1{background-color: blueviolet; width: 600px; border-radius: 12px; margin-top: 60px;}
+#section-1{background-color: #240046; width: 600px; border-radius: 12px; margin-top: 60px;}
 #nombre{font-weight: 500; height: 30px; line-height: 48px;}        
-#section-2{width: 600px; text-align: left; background-color: cornflowerblue; margin-bottom: 50px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; height: 200px;}
-#imagen-card{width: 30%; height: 60%; float: right; margin-right: 15%; margin-top: 5%; border-radius: 12px; vertical-align: middle; opacity: 0.85;}
-#section-3{width: 400px;}
+#section-2{width: 600px; text-align: left; background-color: #262626; margin-bottom: 50px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; height: 200px;}
+#imagen-card{width: 30%; height: 70%; float: right; padding: 24px 54px 24px 24px; border-radius: 12px; vertical-align: middle; opacity: 0.6;}
+#section-3{
+    width: 400px;
+}
+#section-3 div{padding-left: 16px;
+    font-size: 10px;
+}
 #h2-card{margin-left: 16px; padding-top: 16px;}
 #p-card{margin-left: 16px;}
 #p-card li{
@@ -51,11 +62,12 @@
 
 #table{
     display: inline-block; 
-    margin-top: 20px; margin-left: 50px; margin-bottom: 20px;
+    margin-top: 20px; margin-left: 50px; margin-bottom: 12px;
     width: 32%;
-    color: white; font-family: Arial, Helvetica, sans-serif; text-align: center;
+    color: white; font-family: Arial, Helvetica, sans-serif; text-align: center; font-weight: 100;
     background-image: url(imagenes/fondo2.png); background-position: center; background-repeat: no-repeat; background-size: cover;
     border: 10px solid #0D0D0D; border-radius: 20px; border-spacing: 10px;
+    box-shadow: black 15px 20px 15px 1px;
 }
         
 .barra-superior{width: 17px; height: 17px;}
@@ -70,11 +82,17 @@ td{text-align: center; vertical-align: middle; width: 25%; height: 25%; font-siz
     .interfaz{width: 10px; padding-left: 1.5% ;padding-right: 1.5%;}
     .barra{width: 20px; margin-right: 12%; margin-left: 12%;}
 
-#body-lista{background-image: url(imagenes/);}
+#body-lista{background-image: url(imagenes/lista-fondo.gif); 
+    margin: 0px;
+    background-size: cover; background-position: center; background-repeat: no-repeat; 
+    color: white; font-family: "Orbitron", sans-serif;
+}
+
 #nav {
-    margin-top: 0;
+    margin-top: 0; 
     background-color: #240046;
     text-align: center;
+    font-family: "Orbitron", sans-serif; font-weight: 600;
     }
 
     #nav li {
@@ -98,7 +116,7 @@ td{text-align: center; vertical-align: middle; width: 25%; height: 25%; font-siz
     .aside,.main {
         display: inline-block;
         vertical-align: top;
-        height: 90vh;
+        height: 100vh;
     } 
     .contenedor {
         background-color: rgb(255, 98, 0);  
@@ -107,11 +125,24 @@ td{text-align: center; vertical-align: middle; width: 25%; height: 25%; font-siz
     .aside {background-color: firebrick;
         width: 25%;
     }
-    .aside li {list-style-type: none;
+    .aside li {list-style-type: none; 
+        margin-top: 12px;
     }
-    .main {background-color: cyan;
+    .main {background-image: url(imagenes/barra.png); 
+        background-size: cover; background-position: center; background-repeat: no-repeat;
         width: 73%;
+        color: white; font-family: "Orbitron", sans-serif; font-weight: 600;
     }
-    .footer {background-color: forestgreen;
+    .main h1 {margin-top: 12px;}
+    .main p {margin-top: 12px; margin-bottom: 30px;}
+    .footer {background-color: rgba(157, 78, 221, 0.8);
         text-align: center;
     }
+
+#body-trivia {
+    background-image: url(trivia/imagenes-trivia/trivia-fondo.gif);            
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+    color: white;
+    font-family: "Orbitron", sans-serif; font-weight: 600;
+    text-align: center; 
+}

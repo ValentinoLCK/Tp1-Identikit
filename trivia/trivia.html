@@ -6,26 +6,56 @@
     <title>WTMW</title>
     <link rel="stylesheet" href="../estilos.css">
     <link rel="icon" href="imagenes/horuseye.png" type="image/png" sizes="16x16">
+
+    <style>
+        * { margin: 0; 
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #section-trivia h1 {margin-top: 12px; font-family: "Jersey 10", sans-serif;}
+        #section-trivia h2 {font-size: 16px;
+            margin-top: 12px; margin-bottom: 12px;
+            border: 1px solid black; background-color: rgba(0, 0, 0, 0.8); 
+            display: inline-block; 
+            padding: 6px;
+        }
+        #arcade {width: 300px; height: 300px;
+            border: 1px solid #ff9e00; border-radius: 12px;
+            display: block; margin: 0 auto;
+        }
+        #section-trivia a {background-color: #5900fe; color: white;
+            border: 4px solid #000000; 
+            display: inline-block;
+            padding-left: 30px; padding-right: 10px;
+            margin-top: 12px;
+        }
+        #section-trivia a:hover {background-color: #ff9e00; 
+            border: 4px solid darkslateblue;
+        }
+        #coin {width: 50px; height: 50px; vertical-align: middle; padding: 3px;}
+    </style>
 </head>
 
-<body>
+<body id="body-trivia">
     <ul id="nav">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="sobremi.html">About me</a></li>
-        <li><a href="card.html">Card</a></li>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../sobremi.html">About me</a></li>
+        <li><a href="../card.html">Card</a></li>
         <li><a href="trivia.html">Trivia</a></li>
-        <li><a href="lista.html">Lista</a></li>
-        <li><a href="playlist.html">Playlist</a></li>
+        <li><a href="../lista.html">Lista</a></li>
+        <li><a href="../playlist/playlist.html">Playlist</a></li>
     </ul>
 
-    <section>
-        <h1>Titulo de juego</h1>
-        <h2>Descripción</h2>
-        <img src="" alt="">
+    <section id="section-trivia">
+        <h1>Ready Player 1</h1>
+        <h2>Dentro de la trivia, vas a poder descubrir que tipo de videojuego sos en función de tus preferencias o decisiones.
+            <br>Van a ser preguntas relacionadas a habitos comunes de un gamer, asi que no te preocupes de las respuestas incorectas.
+        </h2>
+         
+        <img id="arcade" src="imagenes-trivia/inicio-trivia.png" alt="inicio">
+       
+        <div><a href="pregunta-1.html">INSERT A COIN<img id="coin" src="imagenes-trivia/coin.gif" alt="coin"></a></div>
         
-        <div>
-            <a href="nivel1.html">JUGAR</a>
-        </div>
 
     </section>
    

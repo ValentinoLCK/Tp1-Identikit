@@ -8,11 +8,22 @@
     <link rel="icon" href="imagenes/horuseye.png" type="image/png" sizes="16x16">
     
     <style>
-        * {
-            list-style-position: inside;
+        * {list-style-position: inside;
         }
 
-        .listas {background-color: black; color: white;}
+        #recomendaciones {margin-top: 50px;}
+
+        .listas {background-color: rgba(0, 0, 0, 0.8); 
+            color: white; 
+            font-weight: 600;
+            padding-top: 6px; padding-bottom: 30px; padding-right: 30px;
+            border: 6px double #ff9e00; border-radius: 12px;
+        }
+        .listas li {font-family: "Audiowide", sans-serif;}
+        .listas dd  {font-weight: 300;}
+        .listas div {display: flex; justify-content: center; gap: 24px; padding-top: 24px;}
+        .listas img {width: 150px; height: 150px;}
+        #body-listas, h1, p, .listas {margin-right: 24px; margin-left: 24px;}
     </style>
 </head>
 
@@ -21,19 +32,20 @@
         <li><a href="index.html">Inicio</a></li>
         <li><a href="sobremi.html">Sobre mi</a></li>
         <li><a href="card.html">Card</a></li>
-        <li><a href="trivia.html">Trivia</a></li>
+        <li><a href="trivia/trivia.html">Trivia</a></li>
         <li><a href="lista.html">Lista</a></li>
-        <li><a href="playlist.html">Playlist</a></li>
+        <li><a href="playlist/playlist.html">Playlist</a></li>
     </ul>
 
-    <h1>Recomendaciones</h1>
+    <u><h1 id="recomendaciones">Recomendaciones</h1></u>
     <p>Aca voy a dejarte algunas opiniones acerca de juegos, peliculas/series/animes o generos de musica. 
-        <br>Atención: Estas son mis opiniones, no busco subestimar los gustos de otro.
+        <br> <b><u>Atención:</u></b> Estas son mis opiniones, no busco subestimar los gustos de otro.
     </p>
     
     <ul class="listas">
         <h2>Juegos</h2>
-        <li>Mass Effect</li>
+        <li>Mass Effect: Trilogy</li>
+        <dd>Si te gusta Star Wars y una buena historia, Mass Effect es tu juego, no solo por el hecho de ser uno de mis juegos favoritos, es porque tambien incluye un sistema de rol con finales alternativos en función de tus decisiones que vas tomando a lo largo de la historia.</dd>
         <li>Infamous: Second Son</li>
         <li>Gba Emulator
             <ol>
@@ -41,11 +53,19 @@
                 <li>Fangames de Pokemon</li>
             </ol>
         </li>
+        <div>
+            <img src="imagenes/mass-effect.jpeg" alt="mass-effect">
+            <img src="imagenes/infamous.png" alt="infamous">
+            <img src="imagenes/pokemon-platino.png" alt="platino">
+            <img src="imagenes/pokemon-reborn.png" alt="reborn">
+        </div>
+    
     </ul>
     <ul class="listas">
         <h2>Peliculas/Series/Animes</h2>
         <li>Dune: Parte 2</li>
-        <li>Peaky Blinder -serie y pelicula-</li>
+        <dd>Lo intrigante de la pelicula, además de la historia, son los efectos. Ganadora del Oscar a mejor Sonido y Efectos visuales. De las mejores peliculas que vi en el 2024, obviamente se necesita ver la parte uno para entenderla. </dd>
+        <li>Peaky Blinder (serie y pelicula)</li>
         <li>South Park</li>
         <li>En caso de que te guste el anime:
             <ul>
@@ -55,12 +75,23 @@
                 <li>Soul Eater</li>
             </ul>
         </li>
+        <div>
+            <img src="imagenes/dune.png" alt="Dune">
+            <img src="imagenes/peaky-blinders.png" alt="peaky-blinders">
+            <img src="imagenes/south-park.png" alt="south-park">
+            <img src="imagenes/gachiakuta.png" alt="gachiakuta">
+        </div>
     </ul>
     <ul class="listas">
         <h2>Generos de Musica</h2>
         <li>Trap</li>
         <li>EDM - Electronic Dance Music</li>
         <li>Lofi</li>
+        <div>
+            <img src="imagenes/trap.png" alt="Trap">
+            <img src="imagenes/tomorroland.png" alt="EDM">
+            <img src="imagenes/lofi.png" alt="Lofi">
+        </div>
     </ul>
 
 </body>

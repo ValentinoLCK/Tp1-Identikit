@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WTMW</title>
+    <link rel="stylesheet" href="../estilos.css">
+
+    <style>
+        * { margin: 0; 
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #body-trivia{
+            background-image: url(imagenes-trivia/trivia-fondo.gif);
+            background-size: cover; background-repeat: no-repeat; background-position: center;
+            color: white;
+            font-family: "Orbitron", sans-serif; font-weight: 600;
+            text-align: center; 
+        }
+        #section-trivia h1 {margin-top: 12px;}
+        #section-trivia h2 {margin-top: 12px; margin-bottom: 12px;
+            border: 1px solid black; background-color: rgba(0, 0, 0, 0.8); 
+            padding: 6px
+        }
+        #section-trivia img {
+            display: inline-block; margin: 0 auto;
+            margin-top: 24px;
+            border: 1px solid #ff9e00; border-radius: 12px;
+        }
+        .romper {width: 300px; height: 300px; margin-top: 12px;
+            display: inline-block;
+            background-image: url(imagenes-trivia/mando-lag.gif); background-size: cover; background-position: center;
+            border: 3px solid black; border-radius: 12px;
+            color: white; padding: 18px;
+        }
+        .tryhard {width: 300px; height: 300px; margin-top: 12px;
+            display: inline-block;
+            background-image: url(imagenes-trivia/hacker.gif); background-size: cover; background-position: center;
+            border: 3px solid black; border-radius: 12px;
+            color: white; padding: 18px;
+        }
+        .romper:hover, .tryhard:hover {border: 4px solid #ff9e00;}
+
+        #amigo {margin-right: 30px;}
+
+    </style>
+</head>
+
+<body id="body-trivia">
+    <section id="section-trivia">
+    <ul id="nav">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../sobremi.html">About me</a></li>
+        <li><a href="../card.html">Card</a></li>
+        <li><a href="trivia.html">Trivia</a></li>
+        <li><a href="../lista.html">Lista</a></li>
+        <li><a href="../playlist/playlist.html">Playlist</a></li>
+    </ul>
+
+        <h1>Titulo de juego</h1>
+        <h2>Te derrotan en un juego, ¿cual seria tu excusa valida?</h2>
+
+        <a id="amigo" href="deporte.html"><div class="romper"><h3>"Es que tengo lag" o "me anda mal el mando"</h3></div></a>
+        <a href="shooter.html"><div class="tryhard"><h3>"Na amigo, seguro es hacker"</h3></div></a>
+
+    </section>
+</body>
+</html>
