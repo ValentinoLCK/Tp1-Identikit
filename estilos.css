@@ -273,7 +273,7 @@ td{text-align: center; vertical-align: middle; width: 25%; height: 25%; font-siz
 }
 .sobrevive:hover, .fase:hover {border: 4px solid #ff9e00;}
 
-#deporte {width: 250px; height: 100%; 
+#deporte {width: 350px; height: 100%; 
     border: 1px solid #ff9e00; border-radius: 12px;
     margin-left: 40px; margin-right: 20px;
     float: left; 
@@ -303,7 +303,7 @@ td{text-align: center; vertical-align: middle; width: 25%; height: 25%; font-siz
     border-radius: 12px;
 }
 
-#rpg {width: 250px; height: 100%; 
+#rpg {width: 350px; height: 100%; 
     border: 1px solid #ff9e00; border-radius: 12px;
     margin-left: 40px; margin-right: 20px;
     float: left; 
